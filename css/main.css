@@ -14,14 +14,21 @@ body {
 div {
   display: inline-block;
   max-width: 25em;
+  vertical-align: middle;
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
   padding-left: 1em;
   padding-right: 1em;
   text-align: left;
+  vertical-align: middle;
 }
 
 article {
   font-family: Lato, sans-serif;
-  padding: 2em;
+  padding: 2.5em 1em;
   display: block;
   background-color: #f2f2f2;
 }
@@ -30,6 +37,7 @@ img {
   display: block;
   width: 100%;
   max-width: 25em;
+  text-align: center;
 }
 
 .btn {
@@ -41,12 +49,16 @@ img {
 }
 
 .btn-ghost {
-  background-color: #fff;
+  background-color: #f2f2f2;
   color: #333;
   border: solid 3px #333;
 }
 
 .btn-ghost:hover {
   background-color: #666;
-  color: #fff;
+  color: #f2f2f2;
+}
+
+section {
+  margin: 0;
 }
