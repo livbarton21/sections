@@ -1,3 +1,36 @@
-html{
-  
+html {
+box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Lato
+
+}
+
+header {
+
+}
+
+h1 {
+
+}
+
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav a {
+
+}
+
+.nav a:hover {
+  display: inline-block;
+  background-color: #333
 }
